@@ -1,0 +1,50 @@
+.main {
+	height: 100vh;
+	width: 100vw;
+
+	/* background-image: url('/public/bg.png');
+	background-size: 100% 100%; */
+	background-image: linear-gradient(45deg, #01a8f6, #3317b3);
+}
+
+.container-foto {
+	width: 50vw;
+	margin: auto;
+	padding-top: 200px;
+}
+
+.foto {
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.container-btn {
+	padding: 50px;
+}
+
+.btn {
+	background: transparent;
+	border: none;
+	font-size: 3em;
+	color: white;
+	animation-name: frentetras;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.btn:hover {
+	color: red;
+}
+
+@keyframes frentetras {
+	0% {
+		margin-left: -15px;
+	}
+	50% {
+		margin-left: 30px;
+	}
+	100% {
+		margin-left: -15px;
+	}
+}
